@@ -1,1 +1,1 @@
-# human_ressources_system
+# Employee management system
