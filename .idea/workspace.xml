@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7859bd56-2155-42de-b83c-eb35eb970acd" name="Changes" comment="structure backend" />
+    <list default="true" id="7859bd56-2155-42de-b83c-eb35eb970acd" name="Changes" comment="structure front" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +35,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.SpringBackendApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -74,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726809416691</updated>
-      <workItem from="1726809417784" duration="850000" />
+      <workItem from="1726809417784" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="structure backend">
       <option name="closed" value="true" />
@@ -84,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726809557887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="structure front">
+      <option name="closed" value="true" />
+      <created>1726811078229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726811078229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structure backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="structure backend" />
+    <MESSAGE value="structure front" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure front" />
   </component>
 </project>
