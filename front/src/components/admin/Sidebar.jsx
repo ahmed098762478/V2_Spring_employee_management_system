@@ -11,7 +11,7 @@ const Sidebar = () => {
                             <span>if you have section add menu title</span>
                         </li>
                         <li>
-                            <Link to="/admin/home" data-page="home"><i className="fe fe-home"></i> <span>Dashboard</span></Link>
+                            <Link to="/dashboard" data-page="home"><i className="fe fe-home"></i> <span>Dashboard</span></Link>
                         </li>
                         <li>
                             <Link to="/admin/employes" data-page="employes"><i className="fe fe-users"></i> <span>Employes</span></Link>
