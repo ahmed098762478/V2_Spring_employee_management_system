@@ -14,7 +14,7 @@ const Sidebar = () => {
                             <Link to="/dashboard" data-page="home"><i className="fe fe-home"></i> <span>Dashboard</span></Link>
                         </li>
                         <li>
-                            <Link to="/admin/employes" data-page="employes"><i className="fe fe-users"></i> <span>Employes</span></Link>
+                            <Link to="/employees" data-page="employes"><i className="fe fe-users"></i> <span>Employes</span></Link>
                         </li>
                         {/* Ajoute les autres liens ici */}
                     </ul>
