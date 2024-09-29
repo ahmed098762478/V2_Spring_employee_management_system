@@ -1,13 +1,15 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/admin/Header';
 import Sidebar from './components/admin/Sidebar';
 import Home from './components/admin/Home';
 import Employee from './components/admin/Employee';
+import Salaries from './components/admin/Salaries';  // Import du composant des salaires
 import './App.css';
 
-// Composant Dashboard pour la page d'accueil
-function Dashboard() {
+
+ function Dashboard() {
   return (
     <div className="main-wrapper">
       <Header />
@@ -25,7 +27,20 @@ function EmployeePage() {
       <Header />
       <Sidebar />
       <div className="page-wrapper">
-        <Employee /> {}
+        <Employee />
+      </div>
+    </div>
+  );
+}
+
+
+function SalariesPage() {
+  return (
+    <div className="main-wrapper">
+      <Header />
+      <Sidebar />
+      <div className="page-wrapper">
+        <Salaries />
       </div>
     </div>
   );
@@ -36,7 +51,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/employees" element={<EmployeePage />} /> {}
+        <Route path="/employees" element={<EmployeePage />} />
+        <Route path="/salaries" element={<SalariesPage />} />  {}
       </Routes>
     </Router>
   );

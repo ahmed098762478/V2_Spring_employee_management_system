@@ -16,7 +16,19 @@ const Sidebar = () => {
                         <li>
                             <Link to="/employees" data-page="employes"><i className="fe fe-users"></i> <span>Employes</span></Link>
                         </li>
-                        {/* Ajoute les autres liens ici */}
+                        <li>
+                            <Link to="/Salaries" data-page="salary"><i className="fe fe-dollar-sign"></i> <span>Salaire</span></Link>
+                        </li>
+                        <li>
+                            <Link to="/tasks" data-page="task"><i className="fe fe-list"></i> <span>Tâches</span></Link>
+                        </li>
+                        <li>
+                            <Link to="/leave" data-page="leave"><i className="fe fe-calendar"></i> <span>Congés</span></Link>
+                        </li>
+                        <li>
+                            {}
+                            <Link to="/logout" data-page="logout"><i className="fe fe-log-out"></i> <span>Logout</span></Link>
+                        </li>
                     </ul>
                 </div>
             </div>
