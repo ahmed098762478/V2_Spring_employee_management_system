@@ -27,7 +27,7 @@ const Sidebar = () => {
                         </li>
                         <li>
                             {}
-                            <Link to="/logout" data-page="logout"><i className="fe fe-log-out"></i> <span>Logout</span></Link>
+                            <Link to="/Login" data-page="logout"><i className="fe fe-log-out"></i> <span>Logout</span></Link>
                         </li>
                     </ul>
                 </div>

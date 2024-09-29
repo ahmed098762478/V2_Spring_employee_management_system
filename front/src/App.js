@@ -6,10 +6,10 @@ import Sidebar from './components/admin/Sidebar';
 import Home from './components/admin/Home';
 import Employee from './components/admin/Employee';
 import Salaries from './components/admin/Salaries';  // Import du composant des salaires
+import Login from './components/Login'; // Import du composant Login
 import './App.css';
 
-
- function Dashboard() {
+function Dashboard() {
   return (
     <div className="main-wrapper">
       <Header />
@@ -33,7 +33,6 @@ function EmployeePage() {
   );
 }
 
-
 function SalariesPage() {
   return (
     <div className="main-wrapper">
@@ -52,7 +51,8 @@ function App() {
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/employees" element={<EmployeePage />} />
-        <Route path="/salaries" element={<SalariesPage />} />  {}
+        <Route path="/salaries" element={<SalariesPage />} />
+        <Route path="/login" element={<Login />} /> {/* Add the login route */}
       </Routes>
     </Router>
   );
