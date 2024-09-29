@@ -5,8 +5,8 @@ import Header from './components/admin/Header';
 import Sidebar from './components/admin/Sidebar';
 import Home from './components/admin/Home';
 import Employee from './components/admin/Employee';
-import Salaries from './components/admin/Salaries';  // Import du composant des salaires
-import Login from './components/Login'; // Import du composant Login
+import Salaries from './components/admin/Salaries';  
+import Login from './components/Login'; 
 import './App.css';
 
 function Dashboard() {
@@ -52,7 +52,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/employees" element={<EmployeePage />} />
         <Route path="/salaries" element={<SalariesPage />} />
-        <Route path="/login" element={<Login />} /> {/* Add the login route */}
+        <Route path="/login" element={<Login />} /> {}
       </Routes>
     </Router>
   );
